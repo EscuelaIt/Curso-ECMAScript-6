@@ -4,8 +4,8 @@
 
 * [Babel](https://babeljs.io)
 * [ECMAScript 2015 (ES6) in Node.js](https://nodejs.org/en/docs/es6/)
-* [Ummutable.js](https://facebook.github.io/immutable-js/)
-* [Materia Theme](https://equinusocio.github.io/material-theme/)
+* [Immutable.js](https://facebook.github.io/immutable-js/)
+* [Material Theme](https://equinusocio.github.io/material-theme/)
 
 ### Recursos
 Para que podamos utilizar los packages instalados en un proyecto sin tener que definir la ruta `./node_modules/.bin/` en cada uno de ellos, podemos insertar en nuestro fichero `.bashrc`, `.bash_profile`, etc... la siguiente línea para añadir al `PATH` la ruta de los binarios.
