@@ -1,0 +1,17 @@
+{
+  "name": "session-4",
+  "version": "1.0.0",
+  "description": "## Módulos ### Organización del código en módulos ### Exportación y tipos #### default, etc #### Exportación como singleton ### Importación ### Alias ## New Math, Number, String, Object APIs ### Novedades en apis ## Estructuras de datos: Map, Set, WeakMap, WeakSet ### TODO ## Promises ### Sintaxis ### Ejemplos",
+  "main": "00_string_methods.js",
+  "scripts": {
+    "start": "babel-node"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.4.5",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-stage-2": "^6.3.13"
+  }
+}
