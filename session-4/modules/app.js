@@ -27,3 +27,7 @@ console.log(saluda)
 // import mathematics from './suma';
 // console.log(mathematics)
 // console.log(mathematics(2, 3))
+
+import Persona from './persona'
+var dani = new Persona('dani', 'de la Cruz')
+console.log(dani)
