@@ -8,8 +8,8 @@ import {color, name, MAGIC_NUMBER} from './vars'
 console.log(color, name, MAGIC_NUMBER)
 
 // import an exported function as default
-import multiply from './mathematics'
-console.log(multiply(3, 2))
+import multiplica from './mathematics'
+console.log(multiplica(3, 2))
 
 // import an aliased function
 import {saluda} from './aliases'
