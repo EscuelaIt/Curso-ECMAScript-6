@@ -1,0 +1,19 @@
+{
+  "name": "session-5",
+  "version": "1.0.0",
+  "description": "## Symbols ### Sintaxis ### Uso ## Proxies ## Reflection ### Explicar concepto de Reflection ### Por qué usar Reflect #### Valores de retorno más útiles #### Sintaxis menos verbosa #### Aplicación de funciones más fiable #### Constructores con un número arbitrario de argumentos ## Decoradores",
+  "main": "00_symbols.js",
+  "scripts": {
+    "start": "babel-node"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.4.5",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-stage-1": "^6.3.13",
+    "harmony-reflect": "^1.4.2"
+  }
+}

@@ -1,0 +1,17 @@
+@import './components/card/index';
+
+html {
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+}
+
+body {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+a {
+  text-decoration: none;
+}
