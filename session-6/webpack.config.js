@@ -48,19 +48,19 @@ if(TARGET === 'build') {
     module: {
       loaders: [{
         test: /\.s?css$/,
-        loader: ExtractTextPlugin.extract('style-loader', 'css-loader', 'sass-loader'),
+        loader: ExtractTextPlugin.extract('css!sass'),
         include: APP_PATH
       }]
     },
     plugins: [
       new ExtractTextPlugin('[name].css', {
         allChunks: true
+      }), 
+      new webpack.optimize.UglifyJsPlugin({
+        compress: {
+          warnings: false
+        }
       })
-      // , new webpack.optimize.UglifyJsPlugin({
-      //   compress: {
-      //     warnings: false
-      //   }
-      // })
     ]
   });
 }
