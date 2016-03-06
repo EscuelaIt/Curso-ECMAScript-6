@@ -1,7 +1,8 @@
-import {Image, Div, Text} from '../html';
+import {Image, Div, Text, HtmlComponent} from '../html';
 
-class Card {
+class Card extends HtmlComponent {
   constructor({name, image} = {}){
+    super({name, image});
     this._name = name;
     this._image = image;
   }
